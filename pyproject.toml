@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-blend-db"
+version = "0.1.0"
+description = ""
+authors = ["dotcs <git@dotcs.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
+sqlalchemy = "^2.0.36"
+pydantic = "^2.10.3"
+aiosqlite = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
